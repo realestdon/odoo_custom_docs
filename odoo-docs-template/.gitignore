@@ -1,0 +1,31 @@
+# Sphinx build
+build/
+_build/
+
+# Python
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.egg-info/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sphinx
+source/_build/
+doctrees/
+
+# Generated files
+*.mo
+
+# OS
+Thumbs.db

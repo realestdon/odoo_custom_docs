@@ -1,0 +1,88 @@
+/* Custom CSS for Odoo Documentation */
+
+/* Brand colors */
+:root {
+    --primary-color: #714B67;
+    --secondary-color: #875A7B;
+    --accent-color: #00A09D;
+}
+
+/* Sidebar branding */
+.wy-side-nav-search {
+    background-color: var(--primary-color);
+}
+
+.wy-side-nav-search input[type=text] {
+    border-color: var(--secondary-color);
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.wy-menu-vertical a {
+    color: #d9d9d9;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Current page highlight */
+.wy-menu-vertical li.current a {
+    border-right: solid 3px var(--accent-color);
+}
+
+/* Content area */
+.wy-nav-content {
+    max-width: 1200px;
+}
+
+/* Code blocks */
+.rst-content pre.literal-block,
+.rst-content div[class^='highlight'] {
+    border: 1px solid #e1e4e5;
+    border-radius: 4px;
+}
+
+/* Admonitions */
+.wy-alert-success .wy-alert-title {
+    background-color: #28a745;
+}
+
+.wy-alert-warning .wy-alert-title {
+    background-color: #ffc107;
+}
+
+.wy-alert-danger .wy-alert-title {
+    background-color: #dc3545;
+}
+
+.wy-alert-info .wy-alert-title {
+    background-color: var(--accent-color);
+}
+
+/* Tables */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal;
+}
+
+/* Better spacing for lists */
+.rst-content ul li,
+.rst-content ol li {
+    margin-bottom: 8px;
+}
+
+/* Version selector (if needed) */
+.version-selector {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
